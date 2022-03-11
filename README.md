@@ -20,4 +20,4 @@ If compiled with 0.8.12, an error is thrown at execution time :
 VirtualMachineError: Transaction reverted without a reason string: Integer overflow
 ```
 
-So, for contracts compiled with compiler inferior to 0.8, one should use the [OpenZeppelin SafeMath lib] (https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/math/SafeMath.sol) for performing arithmetic operations.
+So, for contracts compiled with compiler inferior to 0.8, one should use the [OpenZeppelin SafeMath lib](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/math/SafeMath.sol) for performing arithmetic operations.
